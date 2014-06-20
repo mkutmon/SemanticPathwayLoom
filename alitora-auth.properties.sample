@@ -1,0 +1,4 @@
+# Please copy this file to alitora-auth.properties, and fill in your username and password
+ALITORA_USER=jsmith
+ALITORA_PASS=******
+ALITORA_URL=http://....
