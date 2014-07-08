@@ -4,6 +4,13 @@ import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.pathvisio.desktop.plugin.Plugin;
 
+/**
+ * Activator registering the PathwayLoom plugin
+ * with the OSGi registry
+ * 
+ * @author msk
+ *
+ */
 public class Activator implements BundleActivator  {
 	private PppPlugin plugin;
 	
