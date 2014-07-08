@@ -26,10 +26,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-
-import org.apache.log4j.Category;
-import org.blueprint.webservices.bind.soap.client.BINDSOAPDemo;
-
 import org.bridgedb.bio.BioDataSource;
 import org.pathvisio.core.data.GdbManager;
 import org.pathvisio.core.model.ConverterException;
@@ -38,6 +34,7 @@ import org.pathvisio.core.model.ObjectType;
 import org.pathvisio.core.model.Pathway;
 import org.pathvisio.core.model.PathwayElement;
 import org.xml.sax.helpers.DefaultHandler;
+//import org.blueprint.webservices.bind.soap.client.BINDSOAPDemo;
 
 /**
  * Generates Putative Pathway Parts based on a 
@@ -48,7 +45,7 @@ public class PathwayCommonsPppPlugin implements Suggestion
 	public static final String SOURCE_ALL = "ALL";
 	private GdbManager gdbManager;
 	
-	static Category cat = Category.getInstance(BINDSOAPDemo.class.getName());
+//	static Category cat = Category.getInstance(BINDSOAPDemo.class.getName());
 	
 	String sourceParameter;
 	

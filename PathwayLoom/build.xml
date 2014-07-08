@@ -6,7 +6,7 @@
   
   <property name="base.name" value="PathwayLoom"/>
   <property name="jar.name" value="${base.name}.jar"/>
-  <property name="pathvisio.dir" value="../../pv-36"/>
+  <property name="pathvisio.dir" value="../../../pv-trunk"/>
   
 	<path id="project.class.path">
 		<fileset dir="lib">

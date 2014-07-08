@@ -78,7 +78,7 @@ public class SparqlLoomAllPlugin extends SuggestionAdapter
 		
 		System.out.println(sparqlQueryString);
 		Query query = QueryFactory.create(sparqlQueryString);
-		QueryExecution queryExecution = QueryExecutionFactory.sparqlService("http://localhost:8890/sparql", query);
+		QueryExecution queryExecution = QueryExecutionFactory.sparqlService("http://95.85.25.210:8890/sparql", query);
 		ResultSet resultSet = queryExecution.execSelect();
 		PathwayElement pelt = PathwayElement.createPathwayElement(ObjectType.DATANODE);
 		pelt.setMWidth(PppPlugin.DATANODE_MWIDTH);

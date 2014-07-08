@@ -23,12 +23,12 @@ public interface Suggestion
 {
 	public class SuggestionException extends Exception 
 	{
-		SuggestionException (Throwable cause)
+		public SuggestionException (Throwable cause)
 		{
 			super (cause);
 		}
 
-		SuggestionException (String message)
+		public SuggestionException (String message)
 		{
 			super (message);
 		}
